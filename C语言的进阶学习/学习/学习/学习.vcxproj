@@ -74,6 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="learing functiong.c" />
     <ClCompile Include="关机 小程序.c" />
     <ClCompile Include="第四次.c" />
   </ItemGroup>

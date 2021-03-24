@@ -21,5 +21,8 @@
     <ClCompile Include="关机 小程序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="learing functiong.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
