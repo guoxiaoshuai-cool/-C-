@@ -24,5 +24,16 @@
     <ClCompile Include="learing functiong.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TEST.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="add.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
