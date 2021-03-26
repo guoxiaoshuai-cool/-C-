@@ -15,31 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="第四次.c">
+    <ClCompile Include="game.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="关机 小程序.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="learing functiong.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="TEST.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="add.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="数组学习.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1.c">
+    <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
