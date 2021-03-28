@@ -1,9 +1,12 @@
-﻿生成启动时间为 2021/3/26 星期五 20:26:32。
+﻿生成启动时间为 2021/3/27 星期六 19:33:47。
      1>项目“C:\-C-\C语言的进阶学习\学习\学习\学习.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug\学习.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug\学习.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 1.c
+         1.c
+     1>1.c(7): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -15,11 +18,17 @@
          "Debug\关机 小程序.obj"
          "Debug\数组学习.obj"
          "Debug\第四次.obj"
-     1>add.obj : error LNK2005: _mian 已经在 1.obj 中定义
-     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 ___tmainCRTStartup 中被引用
-     1>C:\-C-\C语言的进阶学习\学习\Debug\学习.exe : fatal error LNK1120: 1 个无法解析的外部命令
-     1>已完成生成项目“C:\-C-\C语言的进阶学习\学习\学习\学习.vcxproj”(build 个目标)的操作 - 失败。
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\学习.exe.embed.manifest" /manifest "Debug\学习.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         学习.vcxproj -> C:\-C-\C语言的进阶学习\学习\Debug\学习.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\学习.unsuccessfulbuild”。
+         正在对“Debug\学习.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\-C-\C语言的进阶学习\学习\学习\学习.vcxproj”(build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.34
+已用时间 00:00:00.61

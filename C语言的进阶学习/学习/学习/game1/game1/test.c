@@ -1,6 +1,8 @@
 //测试三子棋游戏
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 #include"game.h"
 void menu()
 {
@@ -10,16 +12,50 @@ void menu()
 }
 void game()
 {
+	char ret = 0;
   //数组存放走出的棋盘信息
 	char board[ROW][COL] = {0};
 	//初始化我们的棋牌
 	InitBoard(board, ROW, COL);
 	DisplayBoard(board, ROW, COL);
+	while (1)
+	{
+		//玩家下棋
+		PlayMove(board,ROW,COL);
+		DisplayBoard(board, ROW, COL);
+		ret = IsWin(board, ROW, COL);
+		if(ret !='C')
+		{
+			break;
+		}
+		//电脑下棋；
+		ComputerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		ret = IsWin(board, ROW, COL);
+		//判断电脑是否赢
+		if(ret !='C')
+		{
+			break;
+		}
+	}
+	if(ret == '*')
+	{
+		printf("玩家赢\n");
+	}
+	else if(ret =='#')
+	{
+		printf("电脑赢\n");
+	}
+	else 
+	{
+		printf("平局\n");
+	}
 
 }
 void test()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do 
 	{
 	   menu();
@@ -35,6 +71,7 @@ void test()
 			   printf("退出游戏\n");
 			   break;
 		   default:
+			   printf("选择错误，请重新选择！\n");
 			   break;
 	   }
 	
