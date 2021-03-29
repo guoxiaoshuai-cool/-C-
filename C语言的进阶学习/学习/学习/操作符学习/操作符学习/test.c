@@ -166,38 +166,38 @@ int count=0;
 //	printf("%d\n",sum);
 //	return 0;
 //}
-//汉若塔问题
-void move(char x, char y)
-{
-	count++;
-	printf("%c ->%c\n",x,y);
-}
-void hannoi(int m, char a, char b, char c)
-{
-	/*void move(char x,char y);*/
-	if(m == 1)
-	{
-		move(a,c);
-	}
-	else
-	{
-		hannoi(m-1,a,c,b);
-		move(a,c);
-		hannoi(m-1,b,a,c);
-	}
-}
-
-int main()
-{
-	/*void hannoi(int m, char a, char b, char c);*/
-	int m=0;
-	printf("请输入盘子个数：\n");
-	scanf("%d",&m);
-	printf("这些盘子移动的步骤如下：\n");
-	hannoi(m,'A','B','C');
-	printf("一共需要%d\n",count);
-		return 0;
-}
+////汉若塔问题
+//void move(char x, char y)
+//{
+//	count++;
+//	printf("%c ->%c\n",x,y);
+//}
+//void hannoi(int m, char a, char b, char c)
+//{
+//	/*void move(char x,char y);*/
+//	if(m == 1)
+//	{
+//		move(a,c);
+//	}
+//	else
+//	{
+//		hannoi(m-1,a,c,b);
+//		move(a,c);
+//		hannoi(m-1,b,a,c);
+//	}
+//}
+//
+//int main()
+//{
+//	/*void hannoi(int m, char a, char b, char c);*/
+//	int m=0;
+//	printf("请输入盘子个数：\n");
+//	scanf("%d",&m);
+//	printf("这些盘子移动的步骤如下：\n");
+//	hannoi(m,'A','B','C');
+//	printf("一共需要%d\n",count);
+//		return 0;
+//}
 
 //void move(char x,char y)
 //{
@@ -228,3 +228,40 @@ int main()
 //	hanoi(m,'A','B','C');
 //	return 0;
 //}
+
+
+//#include<stdio.h>
+//int main()
+//{
+// long double a=35555665555555.1415926;
+// printf("%9.3lf",a);
+// return 0;
+//}
+//	char c;
+//	printf("%u",sizeof(c));
+//	printf("%u",sizeof(+c));
+//	printf("%u",sizeof(!c));
+//	return 0;
+//}
+//	unsigned int a = -20;
+//	printf("%u",a);
+//	return 0;
+//}
+//	int a =0; 
+//	int b = 2;
+//	int c= 3;
+//	if(++a || b-- || ++c)
+//	{
+//		printf("%d%d%d",a,b,c);
+//		return 0;
+//	}
+//}
+//#include<stdio.h>
+//
+//	int main()
+//	{
+//		int i = 1;
+//		int a = (++i) + (++i) +(++i);
+//		printf("%d",a);
+//		return 0;
+//	}
