@@ -11,7 +11,7 @@ void InitBoard(int board[ROW][COL], int row, int col)
 	{
 		for(j=0; j<col; j++)
 		{
-			board[i][j]=' ';
+			board[i][j] = ' ';
 		}
 	}
 }
@@ -50,23 +50,24 @@ void DisplayBoard(char board[ROW][COL], int row, int col)
 }
 void PlayMove(char board[ROW][COL],int row,int col)
 {
-	int x = 0;
-	int y =0;
+	int x ;
+	int y ;
 	printf("玩家走:>\n");
 	while(1)
 	{
-	printf("请输入要下的坐标:>");
+	printf("请输入要下的坐标:>\n");
 	scanf("%d%d", &x, &y);
 	if(x>=1 && x<= row && y>=1&&y <= col)//判断坐标是否合法
 	{
-      if(board[x-1][y-1] == ' ')
+      if(board[x-1][y-1] != ' ')
 	  {
-		  board[x - 1][y - 1] = '*';
-		  break;
+		 printf("该坐标被占用\n");
+		  
 	  }
 	  else 
 	  {
-		  printf("该坐标被占用\n");
+		   board[x - 1][y - 1] = '*';
+		  break;
 	  }
 	}
 	else
@@ -77,8 +78,8 @@ void PlayMove(char board[ROW][COL],int row,int col)
 }
 void ComputerMove(char board[ROW][COL],int row,int col)
 {
-	int x = 0;
-	int y =0;
+	int x ;
+	int y ;
 	printf("电脑走:>\n");
 	while(1)
 	{
@@ -95,8 +96,8 @@ void ComputerMove(char board[ROW][COL],int row,int col)
 //返回0表示棋盘没满
 int IsFull(char board[ROW][COL], int row, int col)
 {
-	int i = 0;
-	int j = 0;
+	int i ;
+	int j ;
 	for(i = 0;i<row;j++)
 	{
 		for(j=0; j<col; j++)
@@ -114,7 +115,7 @@ int IsFull(char board[ROW][COL], int row, int col)
 
 char IsWin(char board[ROW][COL], int row, int col)
 {
-	int i = 0;
+	int i ;
 	//恒三行
 	for(i=0; i<row; i++)
 	{

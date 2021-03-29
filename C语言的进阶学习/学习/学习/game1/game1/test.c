@@ -14,7 +14,7 @@ void game()
 {
 	char ret = 0;
   //数组存放走出的棋盘信息
-	char board[ROW][COL] = {0};
+	char board[ROW][COL];
 	//初始化我们的棋牌
 	InitBoard(board, ROW, COL);
 	DisplayBoard(board, ROW, COL);
