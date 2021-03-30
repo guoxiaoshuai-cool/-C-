@@ -76,3 +76,26 @@
 //      
 //      return 0;
 //    }
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include"1.h"
+
+int mian()
+{
+	int n,r;
+	int sum =0;
+	int j = 0;
+	printf("input a number:");
+	scanf("%d",&n);
+	printf("\n");
+	
+	for(j = 1; j<=n; j++)
+	{
+	   r = fib(j);
+	   sum = r+sum;
+	   printf("第%d个数是%d\n",j,r);
+	}
+	
+	printf("sum = %d\n",sum);
+	return 0;
+}

@@ -1,34 +1,33 @@
-﻿生成启动时间为 2021/3/29 星期一 21:11:03。
+﻿生成启动时间为 2021/3/30 星期二 23:06:19。
      1>项目“C:\clanguage\C语言的进阶学习\学习\学习\学习.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“Debug\学习.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\学习.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 1.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 1.c 2.c
+         2.c
          1.c
-     1>1.c(60): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
+         正在生成代码...
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\clanguage\C语言的进阶学习\学习\Debug\学习.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\学习.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\clanguage\C语言的进阶学习\学习\Debug\学习.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\clanguage\C语言的进阶学习\学习\Debug\学习.lib" /MACHINE:X86 "Debug\学习.exe.embed.manifest.res"
          Debug\1.obj
+         Debug\2.obj
          Debug\add.obj
          "Debug\learing functiong.obj"
          Debug\TEST.obj
          "Debug\关机 小程序.obj"
+         "Debug\指针学习.obj"
          "Debug\数组学习.obj"
-         "Debug\第四次.obj"
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\学习.exe.embed.manifest" /manifest "Debug\学习.exe.intermediate.manifest"
-         所有输出均为最新。
-       LinkEmbedManifest:
-         所有输出均为最新。
-         学习.vcxproj -> C:\clanguage\C语言的进阶学习\学习\Debug\学习.exe
-       FinalizeBuildStatus:
-         正在删除文件“Debug\学习.unsuccessfulbuild”。
-         正在对“Debug\学习.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“C:\clanguage\C语言的进阶学习\学习\学习\学习.vcxproj”(build 个目标)的操作。
+         "Debug\第四次.obj" /FORCE:MULTIPLE 
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+     1>add.obj : warning LNK4006: _mian 已在 1.obj 中定义；已忽略第二个定义
+     1>指针学习.obj : warning LNK4006: _fib 已在 2.obj 中定义；已忽略第二个定义
+     1>指针学习.obj : warning LNK4006: _mian 已在 1.obj 中定义；已忽略第二个定义
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 ___tmainCRTStartup 中被引用
+     1>C:\clanguage\C语言的进阶学习\学习\Debug\学习.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“C:\clanguage\C语言的进阶学习\学习\学习\学习.vcxproj”(build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:00.72
+已用时间 00:00:00.51

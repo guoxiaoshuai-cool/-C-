@@ -55,6 +55,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -76,14 +77,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.c" />
+    <ClCompile Include="2.c" />
     <ClCompile Include="add.c" />
     <ClCompile Include="learing functiong.c" />
     <ClCompile Include="TEST.c" />
     <ClCompile Include="关机 小程序.c" />
+    <ClCompile Include="指针学习.c" />
     <ClCompile Include="数组学习.c" />
     <ClCompile Include="第四次.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1.h" />
     <ClInclude Include="add.h" />
   </ItemGroup>
   <ItemGroup>
