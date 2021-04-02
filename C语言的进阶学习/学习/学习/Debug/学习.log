@@ -1,12 +1,10 @@
-﻿生成启动时间为 2021/4/1 星期四 22:14:50。
+﻿生成启动时间为 2021/4/2 星期五 22:18:57。
      1>项目“C:\clanguage\C语言的进阶学习\学习\学习\学习.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\学习.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "指针学习.c"
          指针学习.c
-     1>指针学习.c(317): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277) : 参见“gets”的声明
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -36,4 +34,4 @@
 
 生成成功。
 
-已用时间 00:00:01.21
+已用时间 00:00:00.65

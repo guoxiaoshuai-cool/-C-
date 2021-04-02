@@ -80,6 +80,7 @@
     <ClCompile Include="2.c" />
     <ClCompile Include="add.c" />
     <ClCompile Include="learing functiong.c" />
+    <ClCompile Include="structure.c" />
     <ClCompile Include="TEST.c" />
     <ClCompile Include="关机 小程序.c" />
     <ClCompile Include="指针学习.c" />
