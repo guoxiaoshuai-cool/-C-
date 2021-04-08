@@ -1,0 +1,3 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+风速达到梵蒂冈灌灌灌灌fdfdfdgg
+	家家户户就不必v
