@@ -297,3 +297,44 @@
 //	printf("%d\n", count);
 //	return 0;
 //}
+
+//1008 数组元素循环右移问题
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	int m = 0;
+//	int n = 0;
+//	int i = 0;
+//	int arr[200];
+//	if (scanf("%d %d", &m, &n))
+//		n = n % m;
+//	for (i = 0; i < m; i++)
+//	{
+//		if (scanf("%d", &arr[i]));
+//	}
+//	int k = 0;
+//	int j = 0;
+//	for (i = 1; i <= n; i++)
+//	{
+//		k = arr[m - 1];
+//		for (j = m - 1; j > 0; j--)
+//		{
+//			arr[j] = arr[j - 1];
+//		}
+//		arr[0] = k;
+//	}
+//	for (i = 0; i < m; i++)
+//	{
+//		if (i == 0)
+//		{
+//			printf("%d", arr[i]);
+//		}
+//		else
+//		{
+//			printf(" %d", arr[i]);
+//		}
+//	}
+//	printf("\n");
+//	return 0;
+//}
