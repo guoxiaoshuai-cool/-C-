@@ -338,3 +338,45 @@
 //	printf("\n");
 //	return 0;
 //}
+
+
+
+//1010 一元多项式求导
+#include<stdio.h>
+int main()
+{
+	int m = 0;
+	int n = 0;
+	int i = 1;
+	int j = 1;
+	while(1)
+	{
+		int a = 0;
+		if (scanf("%d%d", &m, &n))
+		 a = getchar();
+		if (n != 0)
+		{
+			if (i == 1)
+			{
+				printf("%d %d", m*n, n - 1);
+				i = 0;
+			}
+			else 
+		    { 
+			   printf(" %d %d", m*n, n - 1);
+			   j = 0;
+		    }
+		}
+		
+			
+		if (a =='\n')break;
+
+	}
+	if (j == 1)
+	{
+		printf("0 0");
+	}
+	printf("\n");
+	return 0;
+	
+}

@@ -77,6 +77,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="指针.c" />
     <ClCompile Include="数据存储.c" />
     <ClCompile Include="结构体.c" />
   </ItemGroup>
