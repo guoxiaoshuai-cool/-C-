@@ -44,27 +44,27 @@
 //
 //
 
-#include<stdio.h>
-void menu()
-{
-	printf("*************************\n");
-	printf("*** 1.add      2.sub  ***\n");
-	printf("*** 3.mul      4.div  ***\n");
-	printf("******0.exit*************\n");
-	printf("*************************\n");
-}
-int main()
-{
-	do
-	{
-		int intput = 0;
-		menu();
-		printf("«Î—°‘Ò");
-		scanf("%d", &intput);
-		switch (intput)
-		case 1:
-			printf
-
-	}
-}
+//#include<stdio.h>
+//void menu()
+//{
+//	printf("*************************\n");
+//	printf("*** 1.add      2.sub  ***\n");
+//	printf("*** 3.mul      4.div  ***\n");
+//	printf("******0.exit*************\n");
+//	printf("*************************\n");
+//}
+//int main()
+//{
+//	do
+//	{
+//		int intput = 0;
+//		menu();
+//		printf("«Î—°‘Ò");
+//		scanf("%d", &intput);
+//		switch (intput)
+//		case 1:
+//			printf
+//
+//	}
+//}
 
