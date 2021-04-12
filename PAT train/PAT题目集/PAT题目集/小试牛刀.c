@@ -381,25 +381,56 @@
 //	
 //}
 //1011 A + B 和 C
+//#include<stdio.h>
+//int main()
+//{
+//	int n = 0;
+//	int i = 0;
+//	long long a[10], b[10], c[10];
+//	if(scanf("%d", &n))
+//		for (i = 1; i <= n; i++)
+//		{
+//			if (scanf("%lld%lld%lld", &a[i], &b[i], &c[i]));
+//		}
+//	    for (i = 1; i <= n; i++)
+//	    {
+//		  if (a[i] + b[i] > c[i])
+//			 printf("Case #%d: ture\n", i);
+//		   else
+//			 printf("Case #%d: false\n", i);
+//
+//	      }
+//
+//	return 0;
+//}
+
+
+
+//1012 数字分类
 #include<stdio.h>
+#include<math.h>
 int main()
 {
 	int n = 0;
+	int arr[1000] = { 0 };
+	int A1 = 0, A2 = 0, A3 = 0, A4 = 0, A5 = 0;
 	int i = 0;
-	long long a[10], b[10], c[10];
-	if(scanf("%d", &n))
-		for (i = 1; i <= n; i++)
-		{
-			if (scanf("%lld%lld%lld", &a[i], &b[i], &c[i]));
-		}
-	    for (i = 1; i <= n; i++)
-	    {
-		  if (a[i] + b[i] > c[i])
-			 printf("Case #%d: ture\n", i);
-		   else
-			 printf("Case #%d: false\n", i);
-
-	      }
-
+	int count = 0; int count1 = 0;
+	scanf("%d", &n);
+	for (i = 0; i < n; i++)
+	{
+		scanf("%d", &arr[i]);
+		if (arr[i] % 10 == 0) A1 += arr[i];
+		if (arr[i] % 5 ==  1)  A2 += arr[i] * pow(-1, count++); 
+		if (arr[i] % 5 ==  2)  A3++;
+		if (arr[i] % 5 == 3) { A4 += arr[i]; ++count1; }
+		if (arr[i] % 5 ==  4 && arr[i] > A5) A5 = arr[i];
+	}
+	A1 ? printf("%d ", A1) : printf("N");
+	count  ? printf("%d ", A2) : printf("N");
+	A3 ? printf("%d ", A3) : printf("N");
+	A4 ? printf("%.1f ", A4*1.0/count1) : printf("N");
+	A5 ? printf("%d\n", A5) : printf("N\n");
 	return 0;
+
 }
