@@ -406,31 +406,72 @@
 
 
 
-//1012 数字分类
+////1012 数字分类
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	int n = 0;
+//	int arr[1000] = { 0 };
+//	int A1 = 0, A2 = 0, A3 = 0, A4 = 0, A5 = 0;
+//	int i = 0;
+//	int count = 0; int count1 = 0;
+//	scanf("%d", &n);
+//	for (i = 0; i < n; i++)
+//	{
+//		scanf("%d", &arr[i]);
+//		if (arr[i] % 10 == 0) A1 += arr[i];
+//		if (arr[i] % 5 ==  1)  A2 += arr[i] * pow(-1, count++); 
+//		if (arr[i] % 5 ==  2)  A3++;
+//		if (arr[i] % 5 == 3) { A4 += arr[i]; ++count1; }
+//		if (arr[i] % 5 ==  4 && arr[i] > A5) A5 = arr[i];
+//	}
+//	A1 ? printf("%d ", A1) : printf("N");
+//	count  ? printf("%d ", A2) : printf("N");
+//	A3 ? printf("%d ", A3) : printf("N");
+//	A4 ? printf("%.1f ", A4*1.0/count1) : printf("N");
+//	A5 ? printf("%d\n", A5) : printf("N\n");
+//	return 0;
+//
+//}
+
+//1013 数素数
 #include<stdio.h>
 #include<math.h>
 int main()
 {
-	int n = 0;
-	int arr[1000] = { 0 };
-	int A1 = 0, A2 = 0, A3 = 0, A4 = 0, A5 = 0;
-	int i = 0;
-	int count = 0; int count1 = 0;
-	scanf("%d", &n);
-	for (i = 0; i < n; i++)
+	int i = 0,j = 0;
+	int k = 0;
+	int m = 0, n = 0;
+	int cunt = 0;
+	scanf("%d%d", &m, &n);
+	for (i = 1; k < n; i+=2)
 	{
-		scanf("%d", &arr[i]);
-		if (arr[i] % 10 == 0) A1 += arr[i];
-		if (arr[i] % 5 ==  1)  A2 += arr[i] * pow(-1, count++); 
-		if (arr[i] % 5 ==  2)  A3++;
-		if (arr[i] % 5 == 3) { A4 += arr[i]; ++count1; }
-		if (arr[i] % 5 ==  4 && arr[i] > A5) A5 = arr[i];
-	}
-	A1 ? printf("%d ", A1) : printf("N");
-	count  ? printf("%d ", A2) : printf("N");
-	A3 ? printf("%d ", A3) : printf("N");
-	A4 ? printf("%.1f ", A4*1.0/count1) : printf("N");
-	A5 ? printf("%d\n", A5) : printf("N\n");
-	return 0;
+		int num = i;
+		int flag = 1;
+		int b = sqrt(num);
+		for (j = 2; j <=b; j++)
+		{
+			if (num %j == 0)
+			{
+				flag = 0;
+			}
+		}
+		if (flag == 1)
+		{
+			k++;
+			if (k >= m)
+			{
+				printf("%d", num);
+				cunt++;
+				if (cunt % 10 == 0)
+					printf("\n");
+				else if (k != n)
+					printf(" ");
 
+			}
+		}
+	}
+
+	return 0;
 }
