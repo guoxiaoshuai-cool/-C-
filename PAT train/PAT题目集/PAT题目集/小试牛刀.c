@@ -435,43 +435,101 @@
 //
 //}
 
-//1013 数素数
-#include<stdio.h>
-#include<math.h>
-int main()
-{
-	int i = 0,j = 0;
-	int k = 0;
-	int m = 0, n = 0;
-	int cunt = 0;
-	scanf("%d%d", &m, &n);
-	for (i = 1; k < n; i+=2)
-	{
-		int num = i;
-		int flag = 1;
-		int b = sqrt(num);
-		for (j = 2; j <=b; j++)
-		{
-			if (num %j == 0)
-			{
-				flag = 0;
-			}
-		}
-		if (flag == 1)
-		{
-			k++;
-			if (k >= m)
-			{
-				printf("%d", num);
-				cunt++;
-				if (cunt % 10 == 0)
-					printf("\n");
-				else if (k != n)
-					printf(" ");
+////1013 数素数
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	int i = 0,j = 0;
+//	int k = 0;
+//	int m = 0, n = 0;
+//	int cunt = 0;
+//	scanf("%d%d", &m, &n);
+//	for (i = 1; k < n; i+=2)
+//	{
+//		int num = i;
+//		int flag = 1;
+//		int b = sqrt(num);
+//		for (j = 2; j <=b; j++)
+//		{
+//			if (num %j == 0)
+//			{
+//				flag = 0;
+//			}
+//		}
+//		if (flag == 1)
+//		{
+//			k++;
+//			if (k >= m)
+//			{
+//				printf("%d", num);
+//				cunt++;
+//				if (cunt % 10 == 0)
+//					printf("\n");
+//				else if (k != n)
+//					printf(" ");
+//
+//			}
+//		}
+//	}
+//
+//	return 0;
+//}
 
-			}
-		}
-	}
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	char arr1[61],  arr2[61], arr3[61],  arr4[61];
+//	char day = 0;
+//	int hour = 0;
+//	int min = 0;
+//	int i = 0;
+//	scanf("%s%s%s%s", arr1, arr2, arr3, arr4);
+//		while(i<strlen(arr1)&&i<strlen(arr2))
+//		{
+//		  if (arr1[i] == arr2[i] && (arr1[i] >= 'A' && arr1[i] <= 'G'))
+//		{
+//			day = arr1[i];
+//			break;
+//		}
+//		  i++;
+//	    }
+//		i++;
+//	char week[7][4] = { "MON","TUE","WES","THU","FIR","SAT","SUN" };
+//		printf("%s", week[day - 'A']);
+//		for (; i < strlen(arr1) && i < strlen(arr2); i++)
+//		{
+//			if (arr1[i] == arr2[i] && ((arr1[i] >= 'A' && arr1[i] <= 'N') || (arr1[i] >= '0'&&arr1[i] <= '9')))
+//			{
+//				if (arr1[i] > 'A' && arr1[i] < 'N')
+//				{
+//					hour = arr1[i] - 'A' +10;
+//					break;
+//				}
+//				else if (arr1[i] >= '0'&&arr1[i] <= '9')
+//				{
+//					hour = arr1[i] - '0';
+//					break;
+//				}
+//			 }
+//		}
+//		printf("%02d:", hour);
+//		int j = 0;
+//		while( j < strlen(arr3) && j < strlen(arr4))
+//		{
+//			if(arr3[j]==arr4[j]&&((arr3[j]<='Z'&&arr3[j]>='A')|| (arr3[j] <= 'z'&&arr3[j] >= 'a')))
+//			{
+//				min = j;
+//				break;
+//			}
+//			j++;
+//			/*if ((arr3[j] <= 'Z'&&arr3[j] >= 'A') || (arr3[j] <= 'z'&&arr3[j] >= 'a'))
+//			{
+//				j++;
+//		     }*/
+//		}
+//		printf("%02d", min);
+//	return 0;
+//}
 
-	return 0;
-}

@@ -1,3 +1,5 @@
 ﻿  小试牛刀.c
-e:\github 仓库\clanguage\pat train\pat题目集\pat题目集\小试牛刀.c(452): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+e:\github 仓库\clanguage\pat train\pat题目集\pat题目集\小试牛刀.c(490): warning C4018: “<”: 有符号/无符号不匹配
+e:\github 仓库\clanguage\pat train\pat题目集\pat题目集\小试牛刀.c(502): warning C4018: “<”: 有符号/无符号不匹配
+e:\github 仓库\clanguage\pat train\pat题目集\pat题目集\小试牛刀.c(520): warning C4018: “<”: 有符号/无符号不匹配
   PAT题目集.vcxproj -> E:\github 仓库\clanguage\PAT train\PAT题目集\Debug\PAT题目集.exe
