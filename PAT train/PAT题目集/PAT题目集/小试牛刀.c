@@ -533,3 +533,84 @@
 //	return 0;
 //}
 
+
+
+//1015 德才论
+//#include<stdio.h>
+//#include<stdlib.h>
+////int Comp(const void *p1, const void *p2);//如果Comp()函数放在main后面就需要声明
+//
+//typedef struct {
+//	int id;//准考证号 
+//	int de, cai, total;//德分，才分，总分
+//	int rank;//考生类别
+//}Student;//试一下这个地方能否直接用数组
+//
+//int Comp(const void *p1, const void *p2) {
+//	Student a = *(Student *)p1;
+//	Student b = *(Student *)p2;
+//	if (a.rank != b.rank)
+//		return a.rank - b.rank;//如果a的rank小于b，则应该a排在前面
+//	else if (a.total != b.total)
+//		return b.total - a.total;//如果a的总分小于b，则a应该排在后面
+//	else if (a.de != b.de)
+//		return b.de - a.de;//如果a的德分小于b，则a应该排在后面
+//	else if (a.id != b.id)
+//		return a.id - b.id;//如果a的准考证号小于b，应该a排在前面
+//}
+//
+//int main() {
+//	Student stu[100000];//最多可能接收100000个考生信息
+//	int num, low, high;//分别是考生数目，国家线和院线
+//	int num_pass = 0;//过国家线人数
+//	scanf("%d %d %d", &num, &low, &high);
+//	for (int i = 0; i < num; i++) {
+//		scanf("%d %d %d", &stu[i].id, &stu[i].de, &stu[i].cai);
+//		stu[i].total = stu[i].de + stu[i].cai;//接收考生信息，计算总分
+//		//考生分类
+//		if (stu[i].de >= low && stu[i].cai >= low) {
+//			num_pass++;
+//			if (stu[i].de >= high && stu[i].cai >= high)//德分、才分皆过院线
+//				stu[i].rank = 1;
+//			else if (stu[i].de >= high)//德分过院线，但才分没过院线
+//				stu[i].rank = 2;
+//			else if (stu[i].de >= stu[i].cai)
+//				stu[i].rank = 3;//德分都没过院线，但德分大于等于才分
+//			else //德分没过院线
+//				stu[i].rank = 4;
+//		}
+//		else
+//			stu[i].rank = 5;
+//	}
+//
+//	//对考生排序
+//	qsort(stu, num, sizeof(Student), Comp);
+//	printf("%d\n", num_pass);
+//	for (int i = 0; i < num_pass; i++) {
+//		printf("%d %d %d\n", stu[i].id, stu[i].de, stu[i].cai);
+//	}
+//	return 0;
+//}
+
+//1016 部分A + B
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char a[11] = { 0 }, b[11] = { 0 }, DA, DB;
+	int i = 0, sum1=0, sum2=0;
+	scanf("%s %c %s %c", a, &DA, b, &DB);
+	for ( i = 0; i < strlen(a); i++)
+	{
+		if (a[i] == DA)
+			sum1 = sum1 * 10 +( DA - '0');
+	}
+	for ( i = 0; i < strlen(b); i++)
+	{
+		if (b[i] == DB)
+			sum2 = sum2 * 10 +( DB - '0');
+	}
+	printf("%d", sum1 + sum2);
+	return 0;
+}
+

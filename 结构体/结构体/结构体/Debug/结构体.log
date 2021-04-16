@@ -1,4 +1,2 @@
 ﻿  指针.c
-c:\clanguage\结构体\结构体\结构体\指针.c(42): warning C4047: “函数”:“int *”与“int [3][5]”的间接级别不同
-c:\clanguage\结构体\结构体\结构体\指针.c(42): warning C4024: “test3”: 形参和实参 1 的类型不同
-  结构体.vcxproj -> C:\clanguage\结构体\结构体\Debug\结构体.exe
+  结构体.vcxproj -> E:\github 仓库\clanguage\结构体\结构体\Debug\结构体.exe

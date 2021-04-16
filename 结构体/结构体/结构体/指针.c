@@ -67,4 +67,39 @@
 //
 //	}
 //}
-
+//#include<stdio.h>
+//typedef struct
+//{
+//	int age;
+//	char name[20];
+//
+//}stu ;
+//int main()
+//{
+//
+//	printf("");
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char *p = "abcdef";
+//	printf("%d\n", sizeof(p));
+//	printf("%d\n", sizeof(p + 1));
+//	printf("%d\n", sizeof(*p));
+//	printf("%d\n", sizeof(p[0]));
+//	printf("%d\n", sizeof(*p));
+//	printf("%d\n", sizeof(p[0]));
+//	printf("%d\n", sizeof(&p + 1));
+//	printf("%d\n", sizeof(&p));
+//	printf("%d\n", sizeof(&p[0] + 1));
+//
+//
+//	return 0;
+//
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	char * p="abcdef"
+//	return 0;
