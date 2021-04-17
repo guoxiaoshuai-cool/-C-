@@ -593,24 +593,46 @@
 //}
 
 //1016 ²¿·ÖA + B
-#include<stdio.h>
-#include<string.h>
-int main()
-{
-	char a[11] = { 0 }, b[11] = { 0 }, DA, DB;
-	int i = 0, sum1=0, sum2=0;
-	scanf("%s %c %s %c", a, &DA, b, &DB);
-	for ( i = 0; i < strlen(a); i++)
-	{
-		if (a[i] == DA)
-			sum1 = sum1 * 10 +( DA - '0');
-	}
-	for ( i = 0; i < strlen(b); i++)
-	{
-		if (b[i] == DB)
-			sum2 = sum2 * 10 +( DB - '0');
-	}
-	printf("%d", sum1 + sum2);
-	return 0;
-}
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	char a[11] = { 0 }, b[11] = { 0 }, DA, DB;
+//	int i = 0, sum1=0, sum2=0;
+//	scanf("%s %c %s %c", a, &DA, b, &DB);
+//	for ( i = 0; i < strlen(a); i++)
+//	{
+//		if (a[i] == DA)
+//			sum1 = sum1 * 10 +( DA - '0');
+//	}
+//	for ( i = 0; i < strlen(b); i++)
+//	{
+//		if (b[i] == DB)
+//			sum2 = sum2 * 10 +( DB - '0');
+//	}
+//	printf("%d", sum1 + sum2);
+//	return 0;
+//}
 
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	char A[1001] = { 0 };
+//	int B = 0;
+//	int Q = 0;
+//	int R = 0;
+//	scanf("%s%d", &A, &B);
+//	for (int i = 0; A[i] != '\0'; i++)
+//	{
+//		Q = (R * 10 + A[i] - '0')/B;
+//		if(!(strlen(A)&&Q==0&&i==0))
+//		{
+//			printf("%d", Q);
+//		}
+//		
+//		R = (R * 10 + A[i] - '0') % B;
+//	}
+//	printf(" %d", R);
+//	return 0;
+//}
