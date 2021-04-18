@@ -1,4 +1,2 @@
 ﻿  指针.c
-e:\github 仓库\clanguage\结构体\结构体\结构体\指针.c(190): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
   结构体.vcxproj -> E:\github 仓库\clanguage\结构体\结构体\Debug\结构体.exe

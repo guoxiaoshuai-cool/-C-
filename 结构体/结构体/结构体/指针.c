@@ -218,3 +218,95 @@
 //	return 0;
 //
 //}
+
+
+
+//#include<stdio.h>
+//int main()
+//{
+//	int n = 0;
+//	int num[123] = { 0 };
+//	/*int num[] = { 1,2,3,4,5 };*/
+//	int target =0;
+//	int i = 0;
+//	int j = 0;
+//	scanf("%d%d", &n,&target);
+//	int sum = 0;
+//	for (i = 0; i < n; i++)
+//	{
+//		scanf("%d",&num[i]);
+//	}
+//
+//	for (i = 0; i < n; i++)
+//	{
+//		for (j = 1 + i; j < n; j++)
+//		{
+//			sum = num[i] + num[j];
+//			if (sum == target)
+//			printf("[%d ,%d]", i, j);
+//		}
+//	}
+//	return 0;
+//}
+//喝汽水的问题
+//#include<stdio.h>
+//int main()
+//{
+//	int total = 0;
+//	int empty = 0;
+//	int money = 0;
+//	scanf("%d", &money);
+//	total = money;
+//	empty = money;
+//	while (empty >= 2)
+//	{
+//		total += empty / 2;
+//		empty=empty / 2 + empty % 2;
+//	}
+//	printf("%d\n", total);
+//	printf("%d\n", empty);
+//	return 0;
+//}
+//给定一个整形数组就，要求输出前半部分是奇数，后半部分是偶数
+//#include<stdio.h>
+//void print(int arr[], int sz)
+//{
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d", arr[i]);
+//	}
+//}
+//void move(int arr[], int sz)
+//{
+//	int left = 0;
+//	int right = sz - 1;
+//	while (left<right)
+//	{
+//		
+//		while ((left<right)&&arr[left] % 2 == 1)
+//		{
+//			left++;
+//		}
+//		while ((left<right)&&arr[right] % 2 == 0)
+//
+//		{
+//			right--;
+//		}
+//		if (left < right)
+//		{
+//			int tmp = arr[left];
+//			arr[left] = arr[right];
+//			arr[right] = tmp;
+//		}
+//	}
+//}
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	move(arr,sz);
+//	print(arr, sz);
+//	return 0;
+//}
+

@@ -636,3 +636,67 @@
 //	printf(" %d", R);
 //	return 0;
 //}
+
+//018 ´¸×Ó¼ôµ¶²¼ 
+//#include<stdio.h>
+//int change(char c)
+//{
+//	if (c == 'B')
+//		return 0;
+//	else if (c == 'C')
+//		return 1;
+//	else if (c == 'J')
+//		return 2;
+//}
+//int main()
+//{
+//	int n;
+//	char mp[4] = { 'B','C','J' };
+//	scanf("%d", &n);
+//	char a, b;
+//	int i, j;
+//	i = j = 0;
+//	int p1[4] = { 0 };
+//	int p2[4] = { 0 };
+//	int q1[4] = { 0 };
+//	int q2[4] = { 0 };
+//	int x, y;
+//	while (n--)
+//	{
+//		getchar();
+//		scanf("%c %c", &a, &b);
+//		//getchar();
+//		x = change(a);
+//		y = change(b);
+//		if ((x + 1) % 3 == y)
+//		{
+//			p1[0]++;
+//			p2[2]++;
+//			q1[x]++;
+//		}
+//		else if (x == y)
+//		{
+//			p1[1]++;
+//			p2[1]++;
+//		}
+//		else
+//		{
+//			p1[2]++;
+//			p2[0]++;
+//			q2[y]++;
+//		}
+//	}
+//	printf("%d %d %d\n", p1[0], p1[1], p1[2]);
+//	printf("%d %d %d\n", p2[0], p2[1], p2[2]);
+//	int xx = 0;
+//	int yy = 0;
+//	for (i = 0; i < 3; i++)
+//	{
+//		if (q1[i] > q1[xx])
+//			xx = i;
+//		if (q2[i] > q2[yy])
+//			yy = i;
+//	}
+//	printf("%c %c\n", mp[xx], mp[yy]);
+//	return 0;
+//}
