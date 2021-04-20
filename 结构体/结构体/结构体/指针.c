@@ -310,3 +310,107 @@
 //	return 0;
 //}
 
+
+
+//颠倒一个字符串的内容
+//#include<stdio.h>
+//#include<assert.h>
+//#include<string.h>
+//void reverse(char*left, char*right)
+//{
+//	assert(left != NULL);
+//	assert(right != NULL);
+//	while (left<right)
+//	{
+//		char tmp = *left;
+//		*left = *right;
+//		*right = tmp;
+//		left++;
+//		right--;
+//
+//	}
+//
+//}
+//void move(char*arr, int k)//三步翻转法
+//{
+//	assert(arr);
+//	int len = strlen(arr);
+//	assert(k <= len);
+//	reverse(arr,arr+k-1);//逆序左边
+//	reverse(arr+k,arr+len-1);//逆序右边
+//	reverse(arr,arr+len-1);//逆序整体
+//}
+////void move(char * arr, int k)  //暴力求解法
+////{
+////	assert(arr != NULL);
+////	int i = 0;
+////	int len = strlen(arr);
+////	for (i = 0; i < k; i++)
+////	{
+////		char tmp = *arr;
+////		for (int j = 0; j < len - 1; j++)
+////		{
+////			*(arr + j) = *(arr + j + 1);
+////		}
+////		*(arr + len - 1) = tmp;
+////	}
+////
+////}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//		move(arr, 2);
+//		printf("%s\n", arr);
+//	return 0;
+//}
+//判断两个字符，看一个字符是否是另一个字符旋转出来的
+#include<stdio.h>
+#include<assert.h>
+#include<string.h>
+void reverse(char*left, char*right)
+{
+	assert(left != NULL);
+	assert(right != NULL);
+	while (left<right)
+	{
+		char tmp = *left;
+		*left = *right;
+		*right = tmp;
+		left++;
+		right--;
+
+	}
+
+}
+void left_move(char*arr, int k)//三步翻转法
+{
+	assert(arr);
+	int len = strlen(arr);
+	assert(k <= len);
+	reverse(arr,arr+k-1);//逆序左边
+	reverse(arr+k,arr+len-1);//逆序右边
+	reverse(arr,arr+len-1);//逆序整体
+}
+int move(char *s1, char*s2)
+{
+	int len = strlen(s1);
+	int i = 0;
+	for (i = 0; i < len; i++)
+	{
+		left_move(s1, 1);
+		int ret = strcmp(s1, s2);
+		if (ret == 0)
+			return 1;
+	}
+	return 0;
+}
+int main()
+{
+	char arr1[] = "abcdef";
+	char arr2[]=  "cdefab";
+	int ret = move(arr1,arr2);
+	if (ret == 1)
+		printf("YES\n");
+	else printf("NO\n");
+	return 0;
+}

@@ -700,3 +700,101 @@
 //	printf("%c %c\n", mp[xx], mp[yy]);
 //	return 0;
 //}
+
+//1019
+//#include<stdio.h>
+//#include<stdlib.h>
+//int cmp(const void * p1, const void * p2)
+//{
+//	return *(int *)p2 - *(int *)p1;
+//}
+//int main()
+//{
+//	int num = 0;
+//	scanf("%d", &num);
+//	int n[4] = { 0 };
+//	while (1)
+//	{
+//		int i = 0;
+//		int temp = num;
+//		for (i = 0; num != 0; i++)
+//		{
+//			n[i] = num % 10;
+//			num = num / 10;
+//		}
+//		int length = i;
+//		qsort(n, length, sizeof(int), cmp);
+//		int min = n[0] + n[1] * 10 + n[2] * 100 + n[3] * 1000;
+//		int max= n[3] + n[2] * 10 + n[1] * 100 + n[0] * 1000;
+//		num = max - min;
+//		if (num == 0)
+//		{
+//			printf("%04d - %04d = %04d\n", temp, temp, num);
+//			break;
+//		}
+//		else if (num == 6174)
+//		{
+//			printf("%04d - %04d = %04d\n", max, min, num);
+//			break;
+//		}
+//		else
+//			printf("%04d - %04d = %04d\n", max, min, num);
+//	}
+//	return 0;
+//}
+
+//1020 ÔÂ±ý
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct {
+	double num;
+	double price;
+	double unit_price;
+}moon;
+int cmp(const void * p1, const void*p2)
+{
+	moon d1 =* (moon*)p1;
+	moon d2 =* (moon*)p2;
+	if (d2.unit_price - d1.unit_price >= 0)
+		return 1;
+	else
+		return -1;
+		
+}
+int main()
+{
+	int n, max;
+	int i = 0;
+	moon moon_cake[100];
+	scanf("%d%d", &n, &max);
+	for (i=0;i<n;i++)
+	{
+		scanf("%lf", &moon_cake[i].num);
+	}
+	for (i = 0; i < n; i++)
+	{
+		scanf("%lf", &moon_cake[i].price);
+		moon_cake[i].unit_price = moon_cake[i].price / moon_cake[i].num;
+	}
+	qsort(moon_cake, n, sizeof(moon), cmp);
+	double residue_num = max;
+	double total = 0;
+	for (i = 0; i < n; i++)
+	{
+		if (moon_cake[i].num <= residue_num)
+		{
+			total += moon_cake[i].price;
+			residue_num -= moon_cake[i].num;
+		}
+		else
+		{
+			total += residue_num * moon_cake[i].unit_price;
+			break;
+		}
+	}
+	printf("%3.2lf\n", total);
+	return 0;
+
+}
+
