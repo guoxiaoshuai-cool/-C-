@@ -1,5 +1,5 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-////1001 º¦ËÀÈË²»³¥ÃüµÄ(3n+1)²ÂÏë 
+ï»¿//#define _CRT_SECURE_NO_WARNINGS 1
+////1001 å®³æ­»äººä¸å¿å‘½çš„(3n+1)çŒœæƒ³ 
 //#include<stdio.h>
 //int main()
 //{
@@ -19,8 +19,8 @@
 //}
 //
 //
-////1002 Ğ´³öÕâ¸öÊı
-////¶ÁÈëÒ»¸öÕıÕûÊı n£¬¼ÆËãÆä¸÷Î»Êı×ÖÖ®ºÍ£¬ÓÃººÓïÆ´ÒôĞ´³öºÍµÄÃ¿Ò»Î»Êı×Ö¡£
+////1002 å†™å‡ºè¿™ä¸ªæ•°
+////è¯»å…¥ä¸€ä¸ªæ­£æ•´æ•° nï¼Œè®¡ç®—å…¶å„ä½æ•°å­—ä¹‹å’Œï¼Œç”¨æ±‰è¯­æ‹¼éŸ³å†™å‡ºå’Œçš„æ¯ä¸€ä½æ•°å­—ã€‚
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 //#include<string.h>
@@ -75,9 +75,9 @@
 //		}
 //		return 0;
 //	}
-//1009 Ëµ·´»°
-//¸ø¶¨Ò»¾äÓ¢Óï£¬ÒªÇóÄã±àĞ´³ÌĞò£¬½«¾äÖĞËùÓĞµ¥´ÊµÄË³Ğòµßµ¹Êä³ö
-//²âÊÔµãÈıÒ»Ö±¹ı²»È¥£¬¶àÉÙÓĞµãÎÊÌâ£¬ÒÔºó²»ÖªµÀÎÒ»á²»»á¡£
+//1009 è¯´åè¯
+//ç»™å®šä¸€å¥è‹±è¯­ï¼Œè¦æ±‚ä½ ç¼–å†™ç¨‹åºï¼Œå°†å¥ä¸­æ‰€æœ‰å•è¯çš„é¡ºåºé¢ å€’è¾“å‡º
+//æµ‹è¯•ç‚¹ä¸‰ä¸€ç›´è¿‡ä¸å»ï¼Œå¤šå°‘æœ‰ç‚¹é—®é¢˜ï¼Œä»¥åä¸çŸ¥é“æˆ‘ä¼šä¸ä¼šã€‚
 //#include<stdio.h>
 //#include<string.h>
 //int main()
@@ -98,8 +98,8 @@
 //    }
 //    return 0;
 //}
-//1004 ³É¼¨ÅÅÃû 
-//¶ÁÈë n£¨>0£©ÃûÑ§ÉúµÄĞÕÃû¡¢Ñ§ºÅ¡¢³É¼¨£¬·Ö±ğÊä³ö³É¼¨×î¸ßºÍ³É¼¨×îµÍÑ§ÉúµÄĞÕÃûºÍÑ§ºÅ¡£
+//1004 æˆç»©æ’å 
+//è¯»å…¥ nï¼ˆ>0ï¼‰åå­¦ç”Ÿçš„å§“åã€å­¦å·ã€æˆç»©ï¼Œåˆ†åˆ«è¾“å‡ºæˆç»©æœ€é«˜å’Œæˆç»©æœ€ä½å­¦ç”Ÿçš„å§“åå’Œå­¦å·ã€‚
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 //typedef struct stu
@@ -159,7 +159,7 @@
 //	printf("%s %s\n",arr[min].name, arr[min].number);
 //	return 0;
 //}
-//005 ¼ÌĞø(3n + 1)²ÂÏë
+//005 ç»§ç»­(3n + 1)çŒœæƒ³
 //#define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 //int main()
@@ -231,7 +231,7 @@
 
 
 
-//1006 »»¸ö¸ñÊ½Êä³öÕûÊı
+//1006 æ¢ä¸ªæ ¼å¼è¾“å‡ºæ•´æ•°
 #define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 //
@@ -267,7 +267,7 @@
 
 
 
-//1007 ËØÊı¶Ô²ÂÏë
+//1007 ç´ æ•°å¯¹çŒœæƒ³
 
 //#include <stdio.h>
 //#include<math.h>
@@ -298,7 +298,7 @@
 //	return 0;
 //}
 
-//1008 Êı×éÔªËØÑ­»·ÓÒÒÆÎÊÌâ
+//1008 æ•°ç»„å…ƒç´ å¾ªç¯å³ç§»é—®é¢˜
 //#include<stdio.h>
 //#include<string.h>
 //int main()
@@ -341,7 +341,7 @@
 
 
 
-////1010 Ò»Ôª¶àÏîÊ½Çóµ¼
+////1010 ä¸€å…ƒå¤šé¡¹å¼æ±‚å¯¼
 //#include<stdio.h>
 //int main()
 //{
@@ -380,7 +380,7 @@
 //	return 0;
 //	
 //}
-//1011 A + B ºÍ C
+//1011 A + B å’Œ C
 //#include<stdio.h>
 //int main()
 //{
@@ -406,7 +406,7 @@
 
 
 
-////1012 Êı×Ö·ÖÀà
+////1012 æ•°å­—åˆ†ç±»
 //#include<stdio.h>
 //#include<math.h>
 //int main()
@@ -435,7 +435,7 @@
 //
 //}
 
-////1013 ÊıËØÊı
+////1013 æ•°ç´ æ•°
 //#include<stdio.h>
 //#include<math.h>
 //int main()
@@ -535,55 +535,55 @@
 
 
 
-//1015 µÂ²ÅÂÛ
+//1015 å¾·æ‰è®º
 //#include<stdio.h>
 //#include<stdlib.h>
-////int Comp(const void *p1, const void *p2);//Èç¹ûComp()º¯Êı·ÅÔÚmainºóÃæ¾ÍĞèÒªÉùÃ÷
+////int Comp(const void *p1, const void *p2);//å¦‚æœComp()å‡½æ•°æ”¾åœ¨mainåé¢å°±éœ€è¦å£°æ˜
 //
 //typedef struct {
-//	int id;//×¼¿¼Ö¤ºÅ 
-//	int de, cai, total;//µÂ·Ö£¬²Å·Ö£¬×Ü·Ö
-//	int rank;//¿¼ÉúÀà±ğ
-//}Student;//ÊÔÒ»ÏÂÕâ¸öµØ·½ÄÜ·ñÖ±½ÓÓÃÊı×é
+//	int id;//å‡†è€ƒè¯å· 
+//	int de, cai, total;//å¾·åˆ†ï¼Œæ‰åˆ†ï¼Œæ€»åˆ†
+//	int rank;//è€ƒç”Ÿç±»åˆ«
+//}Student;//è¯•ä¸€ä¸‹è¿™ä¸ªåœ°æ–¹èƒ½å¦ç›´æ¥ç”¨æ•°ç»„
 //
 //int Comp(const void *p1, const void *p2) {
 //	Student a = *(Student *)p1;
 //	Student b = *(Student *)p2;
 //	if (a.rank != b.rank)
-//		return a.rank - b.rank;//Èç¹ûaµÄrankĞ¡ÓÚb£¬ÔòÓ¦¸ÃaÅÅÔÚÇ°Ãæ
+//		return a.rank - b.rank;//å¦‚æœaçš„rankå°äºbï¼Œåˆ™åº”è¯¥aæ’åœ¨å‰é¢
 //	else if (a.total != b.total)
-//		return b.total - a.total;//Èç¹ûaµÄ×Ü·ÖĞ¡ÓÚb£¬ÔòaÓ¦¸ÃÅÅÔÚºóÃæ
+//		return b.total - a.total;//å¦‚æœaçš„æ€»åˆ†å°äºbï¼Œåˆ™aåº”è¯¥æ’åœ¨åé¢
 //	else if (a.de != b.de)
-//		return b.de - a.de;//Èç¹ûaµÄµÂ·ÖĞ¡ÓÚb£¬ÔòaÓ¦¸ÃÅÅÔÚºóÃæ
+//		return b.de - a.de;//å¦‚æœaçš„å¾·åˆ†å°äºbï¼Œåˆ™aåº”è¯¥æ’åœ¨åé¢
 //	else if (a.id != b.id)
-//		return a.id - b.id;//Èç¹ûaµÄ×¼¿¼Ö¤ºÅĞ¡ÓÚb£¬Ó¦¸ÃaÅÅÔÚÇ°Ãæ
+//		return a.id - b.id;//å¦‚æœaçš„å‡†è€ƒè¯å·å°äºbï¼Œåº”è¯¥aæ’åœ¨å‰é¢
 //}
 //
 //int main() {
-//	Student stu[100000];//×î¶à¿ÉÄÜ½ÓÊÕ100000¸ö¿¼ÉúĞÅÏ¢
-//	int num, low, high;//·Ö±ğÊÇ¿¼ÉúÊıÄ¿£¬¹ú¼ÒÏßºÍÔºÏß
-//	int num_pass = 0;//¹ı¹ú¼ÒÏßÈËÊı
+//	Student stu[100000];//æœ€å¤šå¯èƒ½æ¥æ”¶100000ä¸ªè€ƒç”Ÿä¿¡æ¯
+//	int num, low, high;//åˆ†åˆ«æ˜¯è€ƒç”Ÿæ•°ç›®ï¼Œå›½å®¶çº¿å’Œé™¢çº¿
+//	int num_pass = 0;//è¿‡å›½å®¶çº¿äººæ•°
 //	scanf("%d %d %d", &num, &low, &high);
 //	for (int i = 0; i < num; i++) {
 //		scanf("%d %d %d", &stu[i].id, &stu[i].de, &stu[i].cai);
-//		stu[i].total = stu[i].de + stu[i].cai;//½ÓÊÕ¿¼ÉúĞÅÏ¢£¬¼ÆËã×Ü·Ö
-//		//¿¼Éú·ÖÀà
+//		stu[i].total = stu[i].de + stu[i].cai;//æ¥æ”¶è€ƒç”Ÿä¿¡æ¯ï¼Œè®¡ç®—æ€»åˆ†
+//		//è€ƒç”Ÿåˆ†ç±»
 //		if (stu[i].de >= low && stu[i].cai >= low) {
 //			num_pass++;
-//			if (stu[i].de >= high && stu[i].cai >= high)//µÂ·Ö¡¢²Å·Ö½Ô¹ıÔºÏß
+//			if (stu[i].de >= high && stu[i].cai >= high)//å¾·åˆ†ã€æ‰åˆ†çš†è¿‡é™¢çº¿
 //				stu[i].rank = 1;
-//			else if (stu[i].de >= high)//µÂ·Ö¹ıÔºÏß£¬µ«²Å·ÖÃ»¹ıÔºÏß
+//			else if (stu[i].de >= high)//å¾·åˆ†è¿‡é™¢çº¿ï¼Œä½†æ‰åˆ†æ²¡è¿‡é™¢çº¿
 //				stu[i].rank = 2;
 //			else if (stu[i].de >= stu[i].cai)
-//				stu[i].rank = 3;//µÂ·Ö¶¼Ã»¹ıÔºÏß£¬µ«µÂ·Ö´óÓÚµÈÓÚ²Å·Ö
-//			else //µÂ·ÖÃ»¹ıÔºÏß
+//				stu[i].rank = 3;//å¾·åˆ†éƒ½æ²¡è¿‡é™¢çº¿ï¼Œä½†å¾·åˆ†å¤§äºç­‰äºæ‰åˆ†
+//			else //å¾·åˆ†æ²¡è¿‡é™¢çº¿
 //				stu[i].rank = 4;
 //		}
 //		else
 //			stu[i].rank = 5;
 //	}
 //
-//	//¶Ô¿¼ÉúÅÅĞò
+//	//å¯¹è€ƒç”Ÿæ’åº
 //	qsort(stu, num, sizeof(Student), Comp);
 //	printf("%d\n", num_pass);
 //	for (int i = 0; i < num_pass; i++) {
@@ -592,7 +592,7 @@
 //	return 0;
 //}
 
-//1016 ²¿·ÖA + B
+//1016 éƒ¨åˆ†A + B
 //#include<stdio.h>
 //#include<string.h>
 //int main()
@@ -637,7 +637,7 @@
 //	return 0;
 //}
 
-//018 ´¸×Ó¼ôµ¶²¼ 
+//018 é”¤å­å‰ªåˆ€å¸ƒ 
 //#include<stdio.h>
 //int change(char c)
 //{
@@ -743,58 +743,132 @@
 //	return 0;
 //}
 
-//1020 ÔÂ±ı
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
-#include<stdlib.h>
-typedef struct {
-	double num;
-	double price;
-	double unit_price;
-}moon;
-int cmp(const void * p1, const void*p2)
-{
-	moon d1 =* (moon*)p1;
-	moon d2 =* (moon*)p2;
-	if (d2.unit_price - d1.unit_price >= 0)
-		return 1;
-	else
-		return -1;
-		
-}
-int main()
-{
-	int n, max;
-	int i = 0;
-	moon moon_cake[100];
-	scanf("%d%d", &n, &max);
-	for (i=0;i<n;i++)
-	{
-		scanf("%lf", &moon_cake[i].num);
-	}
-	for (i = 0; i < n; i++)
-	{
-		scanf("%lf", &moon_cake[i].price);
-		moon_cake[i].unit_price = moon_cake[i].price / moon_cake[i].num;
-	}
-	qsort(moon_cake, n, sizeof(moon), cmp);
-	double residue_num = max;
-	double total = 0;
-	for (i = 0; i < n; i++)
-	{
-		if (moon_cake[i].num <= residue_num)
-		{
-			total += moon_cake[i].price;
-			residue_num -= moon_cake[i].num;
-		}
-		else
-		{
-			total += residue_num * moon_cake[i].unit_price;
-			break;
-		}
-	}
-	printf("%3.2lf\n", total);
-	return 0;
+//1020 æœˆé¥¼
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//#include<stdlib.h>
+//typedef struct {
+//	double num;
+//	double price;
+//	double unit_price;
+//}moon;
+//int cmp(const void * p1, const void*p2)
+//{
+//	moon d1 =* (moon*)p1;
+//	moon d2 =* (moon*)p2;
+//	if (d2.unit_price - d1.unit_price >= 0)
+//		return 1;
+//	else
+//		return -1;
+//		
+//}
+//int main()
+//{
+//	int n, max;
+//	int i = 0;
+//	moon moon_cake[100];
+//	scanf("%d%d", &n, &max);
+//	for (i=0;i<n;i++)
+//	{
+//		scanf("%lf", &moon_cake[i].num);
+//	}
+//	for (i = 0; i < n; i++)
+//	{
+//		scanf("%lf", &moon_cake[i].price);
+//		moon_cake[i].unit_price = moon_cake[i].price / moon_cake[i].num;
+//	}
+//	qsort(moon_cake, n, sizeof(moon), cmp);
+//	double residue_num = max;
+//	double total = 0;
+//	for (i = 0; i < n; i++)
+//	{
+//		if (moon_cake[i].num <= residue_num)
+//		{
+//			total += moon_cake[i].price;
+//			residue_num -= moon_cake[i].num;
+//		}
+//		else
+//		{
+//			total += residue_num * moon_cake[i].unit_price;
+//			break;
+//		}
+//	}
+//	printf("%3.2lf\n", total);
+//	return 0;
+//
+//}
 
-}
+//1021 ä¸ªä½æ•°ç»Ÿè®¡
+//è¯·ç¼–å†™ç¨‹åºç»Ÿè®¡æ¯ç§ä¸åŒçš„ä¸ªä½æ•°å­—å‡ºç°çš„æ¬¡æ•°ã€‚ä¾‹å¦‚ï¼šç»™å®š N = 100311ï¼Œåˆ™æœ‰ 2 ä¸ª 0ï¼Œ3 ä¸ª 1ï¼Œå’Œ 1 ä¸ª 3ã€‚
+//è¾“å…¥æ ¼å¼ï¼š
+//æ¯ä¸ªè¾“å…¥åŒ…å« 1 ä¸ªæµ‹è¯•ç”¨ä¾‹ï¼Œå³ä¸€ä¸ªä¸è¶…è¿‡ 1000 ä½çš„æ­£æ•´æ•° Nã€‚
+//è¾“å‡ºæ ¼å¼ï¼š
+//å¯¹ N ä¸­æ¯ä¸€ç§ä¸åŒçš„ä¸ªä½æ•°å­—ï¼Œä»¥ D : M çš„æ ¼å¼åœ¨ä¸€è¡Œä¸­è¾“å‡ºè¯¥ä½æ•°å­— D åŠå…¶åœ¨ N ä¸­å‡ºç°çš„æ¬¡æ•° Mã€‚è¦æ±‚æŒ‰ D çš„å‡åºè¾“å‡ºã€‚
+//è¾“å…¥æ ·ä¾‹ï¼š100311
+//è¾“å‡ºæ ·ä¾‹ï¼š
+//0 : 2
+//1 : 3
+//3 : 1
+//ä»£ç å®ç°å¦‚ä¸‹
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	char arr1[1001] = { 0 };
+//	int count[10] = { 0 };
+//	scanf("%s", arr1);
+//	int i = 0;
+//	for (i = 0; i < strlen(arr1); i++)
+//	{
+//		int j = 0;
+//		for (j = 0; j < 10; j++)
+//		{
+//			if (j == arr1[i] - '0')
+//				count[j]++;
+//		}
+//	}
+//	for (i = 0; i < 10; i++)
+//	{
+//		if (count[i] != 0)
+//			printf("%d:%d\n", i, count[i]);
+//	}
+//	return 0;
+//}
 
+
+////1022 Dè¿›åˆ¶çš„A + B(20 åˆ†)
+////è¾“å…¥ä¸¤ä¸ªéè´Ÿ 10 è¿›åˆ¶æ•´æ•° A å’Œ B(â‰¤230âˆ’1)ï¼Œè¾“å‡º A + B çš„ D(1 < Dâ‰¤10)è¿›åˆ¶æ•°ã€‚
+////è¾“å…¥åœ¨ä¸€è¡Œä¸­ä¾æ¬¡ç»™å‡º 3 ä¸ªæ•´æ•° Aã€B å’Œ Dã€‚
+////è¾“å‡ºæ ¼å¼ï¼šè¾“å‡º A + B çš„ D è¿›åˆ¶æ•°ã€‚
+////è¾“å…¥æ ·ä¾‹ï¼š123 456 8
+//#include<stdio.h>
+//int main()
+//{
+//	int A, B, D;
+//	scanf("%d%d%d", &A, &B, &D);//è¾“å…¥ä¸‰ä¸ªæ•´æ•°
+//	int temp = 0;
+//	int num[100] = { 0 };//åˆ›å»ºæ•´å½¢æ•°ç»„å­˜æ”¾è¾“å‡ºæ•°æ®ï¼Œå¼€è¾Ÿçš„ç©ºé—´åº”è¯¥å¤§ä¸€ç‚¹ï¼Œä¸ç„¶é€ æˆæ•°ç»„è¶Šç•Œï¼›
+//	temp = A + B;
+//	int i = 0;
+//	for ( i = 0; temp != 0; i++)
+//	{
+//		num[i] = temp % D;//å–ä½™
+//		temp = temp / D;
+//	}
+//	if (A+B==0)//å°†A+Bç­‰äº0çš„æƒ…å†µè¾“å‡ºæ¥ï¼Œä¸ç„¶æµ‹è¯•ç‚¹2ï¼Œ3è¿‡ä¸å»
+//	{
+//		printf("0");
+//	}
+//	for (int j = i - 1; j >= 0; j--)
+//	{
+//		printf("%d", num[j]);//å€’å™è¾“å‡º
+//	}
+//	return 0;
+//
+//}
+////ä»£ç æ€è·¯ï¼š
+////1.å°†ä¸€ä¸ªåè¿›åˆ¶æ•°ï¼Œè¾“å‡ºä¸ºå…¶ä»–è¿›åˆ¶æ•°ï¼Œåº”è¯¥å…ˆåœ¨ç¬”è®°æœ¬ä¸Šè¿ç®—ä¸‹ä¸€ä¸ªåè¿›åˆ¶æ•°å¦‚ä½•å˜ä¸ºå…«è¿›åˆ¶ï¼Œæ‰¾å‡ºè§„å¾‹ï¼›
+////2.å¾—å‡ºåº”è¯¥ç”¨å–ä½™æ³•ï¼›å³å…ˆå–ä½™æ•°ï¼Œæ¯å–ä¸€ä¸ªä½™æ•°åœ¨æ•°ç»„é‡Œå­˜èµ·æ¥ï¼Œå†å°†å¾—å‡ºæ¥çš„å•†ç”¨äºä½œä¸ºè¾“å…¥ï¼›
+////3.ä¹‹åå€’åºè¾“å‡ºï¼›
+
+ 

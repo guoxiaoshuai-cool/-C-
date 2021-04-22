@@ -364,53 +364,143 @@
 //	return 0;
 //}
 //判断两个字符，看一个字符是否是另一个字符旋转出来的
+//#include<stdio.h>
+//#include<assert.h>
+//#include<string.h>
+//void reverse(char*left, char*right)
+//{
+//	assert(left != NULL);
+//	assert(right != NULL);
+//	while (left<right)
+//	{
+//		char tmp = *left;
+//		*left = *right;
+//		*right = tmp;
+//		left++;
+//		right--;
+//
+//	}
+//
+//}
+//void left_move(char*arr, int k)//三步翻转法
+//{
+//	assert(arr);
+//	int len = strlen(arr);
+//	assert(k <= len);
+//	reverse(arr,arr+k-1);//逆序左边
+//	reverse(arr+k,arr+len-1);//逆序右边
+//	reverse(arr,arr+len-1);//逆序整体
+//}
+//int move(char *s1, char*s2)
+//{
+//	int len = strlen(s1);
+//	int i = 0;
+//	for (i = 0; i < len; i++)
+//	{
+//		left_move(s1, 1);
+//		int ret = strcmp(s1, s2);
+//		if (ret == 0)
+//			return 1;
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	char arr1[] = "abcdef";
+//	char arr2[]=  "cdefab";
+//	int ret = move(arr1,arr2);
+//	if (ret == 1)
+//		printf("YES\n");
+//	else printf("NO\n");
+//	return 0;
+//}
+
+//#include<stdio.h>
+//#include<string.h>
+//int move(char* str1, char* str2)
+//{
+//	int len1 = strlen(str1);
+//	int len2 = strlen(str2);
+//	if (len1 != len2)
+//		return 0;
+//	strncat(str1, str1, 6);
+//	char *ret = strstr(str1, str2);
+//	if (ret == NULL)
+//	{
+//		return 0;
+//	}
+//	else
+//	{
+//		return 1;
+//	}
+//
+//}
+//int main()
+//{
+//	char arr1[30] = "abcdef";
+//	char arr2[30] = "cdefab";
+//	int ret = move(arr1, arr2);
+//	if (ret == 1)
+//	{
+//		printf("yes\n");
+//
+//	}
+//	else
+//	{
+//		printf("No\n");
+//	}
+//	return 0;
+//}
+
+
+//杨氏矩阵
+//有一个数字矩阵，矩阵的每行从左到右是递增的，矩阵从上到下是递增的，请编写程序查找某个数字是
+//是否存在；要求时间复杂度小于0（N）
+//代码思路，因为要求了复杂度小于0（N），故不能用遍历；观察杨氏矩阵的特点，发现都递增，所以可以使用
+//左\右上角元素进行查找，能大大减少时间复杂度
 #include<stdio.h>
-#include<assert.h>
-#include<string.h>
-void reverse(char*left, char*right)
+int Find(int arr[3][3], int k,int *px, int* py)
 {
-	assert(left != NULL);
-	assert(right != NULL);
-	while (left<right)
+	int x = 0;
+	int y = *py - 1;
+	while (x <= *py- 1 && y >= 0)
 	{
-		char tmp = *left;
-		*left = *right;
-		*right = tmp;
-		left++;
-		right--;
-
-	}
-
-}
-void left_move(char*arr, int k)//三步翻转法
-{
-	assert(arr);
-	int len = strlen(arr);
-	assert(k <= len);
-	reverse(arr,arr+k-1);//逆序左边
-	reverse(arr+k,arr+len-1);//逆序右边
-	reverse(arr,arr+len-1);//逆序整体
-}
-int move(char *s1, char*s2)
-{
-	int len = strlen(s1);
-	int i = 0;
-	for (i = 0; i < len; i++)
-	{
-		left_move(s1, 1);
-		int ret = strcmp(s1, s2);
-		if (ret == 0)
+		if (arr[x][y] > k)
+		{
+			y--;
+		}
+		else if (arr[x][y]<k )
+		{
+			x++;
+		}
+		else
+		{
+			*px = x;
+			*py = y;
 			return 1;
+		}
+
 	}
+
 	return 0;
 }
 int main()
 {
-	char arr1[] = "abcdef";
-	char arr2[]=  "cdefab";
-	int ret = move(arr1,arr2);
+	int arr[3][3] = { { 1,2,3 }, { 4,5,6 }, { 7,8,9 } };//先给出一个二维数组表示矩阵
+	int k = 6;
+	//sacnf("%d", &k);//加一个宏定义才可以使用scanf函数，这里不做过多的分析
+	int x = 3;
+	int y = 3;
+	int ret = Find(arr, k, &x, &y);
 	if (ret == 1)
-		printf("YES\n");
-	else printf("NO\n");
+	{
+		printf("找到了\n");
+		printf("下标是:%d %d\n", x, y);
+	}
+	else
+		printf("没找到\n");
 	return 0;
 }
+
+
+

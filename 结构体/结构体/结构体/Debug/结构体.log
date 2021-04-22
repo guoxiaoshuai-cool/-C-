@@ -1,2 +1,4 @@
 ﻿  指针.c
-  结构体.vcxproj -> E:\github 仓库\clanguage\结构体\结构体\Debug\结构体.exe
+e:\github 仓库\clanguage\结构体\结构体\结构体\指针.c(490): warning C4013: “sacnf”未定义；假设外部返回 int
+指针.obj : error LNK2019: 无法解析的外部符号 _sacnf，该符号在函数 _main 中被引用
+E:\github 仓库\clanguage\结构体\结构体\Debug\结构体.exe : fatal error LNK1120: 1 个无法解析的外部命令
