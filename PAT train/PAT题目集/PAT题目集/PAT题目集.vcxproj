@@ -77,6 +77,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PAT乙级1023.c" />
+    <ClCompile Include="PAT乙级1024.c" />
     <ClCompile Include="小试牛刀.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
