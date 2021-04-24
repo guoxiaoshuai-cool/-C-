@@ -24,5 +24,20 @@
     <ClCompile Include="strcat函数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="strcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strncpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strncat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strncmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strstr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

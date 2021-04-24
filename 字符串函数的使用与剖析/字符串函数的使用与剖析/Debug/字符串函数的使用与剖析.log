@@ -1,2 +1,10 @@
-﻿  strcat函数.c
+﻿  strstr.c
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(18): warning C4047: “return”:“int”与“const char *”的间接级别不同
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(23): warning C4090: “=”: 不同的“const”限定符
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(32): warning C4047: “return”:“int”与“char *”的间接级别不同
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(37): warning C4047: “return”:“int”与“void *”的间接级别不同
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(13): warning C4090: “初始化”: 不同的“const”限定符
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(14): warning C4090: “初始化”: 不同的“const”限定符
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(15): warning C4090: “初始化”: 不同的“const”限定符
+e:\github 仓库\clanguage\字符串函数的使用与剖析\字符串函数的使用与剖析\strstr.c(43): warning C4047: “初始化”:“char *”与“int”的间接级别不同
   字符串函数的使用与剖析.vcxproj -> E:\github 仓库\clanguage\字符串函数的使用与剖析\Debug\字符串函数的使用与剖析.exe

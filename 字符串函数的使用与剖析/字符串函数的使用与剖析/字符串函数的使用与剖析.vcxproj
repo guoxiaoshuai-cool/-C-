@@ -20,8 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="strcat函数.c" />
+    <ClCompile Include="strcmp.c" />
     <ClCompile Include="strcpy函数.c" />
     <ClCompile Include="strlen函数.c" />
+    <ClCompile Include="strncat.c" />
+    <ClCompile Include="strncmp.c" />
+    <ClCompile Include="strncpy.c" />
+    <ClCompile Include="strstr.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
