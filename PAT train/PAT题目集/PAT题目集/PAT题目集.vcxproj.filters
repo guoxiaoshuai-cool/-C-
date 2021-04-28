@@ -24,5 +24,17 @@
     <ClCompile Include="PAT乙级1024.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PAT乙级1026.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PAT乙级1027.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PAT乙级1028.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PAT乙级1031.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

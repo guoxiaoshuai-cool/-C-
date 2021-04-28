@@ -1,3 +1,2 @@
-﻿  PAT乙级1024.c
-MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
-E:\github 仓库\clanguage\PAT train\PAT题目集\Debug\PAT题目集.exe : fatal error LNK1120: 1 个无法解析的外部命令
+﻿  PAT乙级1031.c
+  PAT题目集.vcxproj -> E:\github 仓库\clanguage\PAT train\PAT题目集\Debug\PAT题目集.exe
